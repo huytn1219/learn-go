@@ -26,7 +26,6 @@ func main() {
 	problems := parseLines(lines)
 
 	timer := time.NewTimer(time.Duration(*timeLimit) * time.Second)
-	<-timer.C
 
 	correct := 0
 
